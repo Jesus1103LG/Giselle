@@ -1,0 +1,61 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Marvel', sans-serif;
+}
+
+/* FONDO DE PAGINA */
+
+body{
+    --opacidad-negro: 0.7;
+    background-image: linear-gradient(rgba(0, 0, 0, var(--opacidad-negro)), rgba(0, 0, 0, var(--opacidad-negro))), url("espider.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    backdrop-filter: blur(10px);
+}
+
+/* SPIDERMAN Y TEXTOS */
+
+.cover{
+    min-height: 100vh;
+    color: #bbb;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header{
+    /* margin-top: 150px; */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1;
+    max-width: 40em;
+}
+
+h1{
+    color: #fff;
+}
+
+img{
+    width: 40%;
+    height: 40%;
+    padding: 50px 0;
+    padding-left: 30px;
+}
+
+.btn{
+    width: 100px;
+    height: 30px;
+    font-size: 20px;
+    padding: 1px;
+    margin: 7px;
+
+    background-color: #555;
+    border-radius: 5px;
+    border-color: #fff;
+}

@@ -1,0 +1,17 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Marvel', sans-serif;
+}
+
+/* FONDO DE PAGINA */
+
+body{
+    --opacidad-negro: 0.7;
+    background-image: linear-gradient(rgba(0, 0, 0, var(--opacidad-negro)), rgba(0, 0, 0, var(--opacidad-negro))), url("espider.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    backdrop-filter: blur(10px);
+    min-height: 100vh;
+}
