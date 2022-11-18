@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     font-family: 'Marvel', sans-serif;
+    color: #ddd;
 }
 
 /* FONDO DE PAGINA */
@@ -29,10 +30,9 @@ body{
 
 .header, .footer{
     grid-column: 1/-1;
-    background-color: rgb(107, 16, 16);
-    color: #ddd;
+    background-color: rgb(107, 16, 16,.75);
     padding: 7px;
-    border: 3px solid #000;
+    border: 3px solid #333a;
 }
 
 /* main */
@@ -40,17 +40,54 @@ body{
 .main{
     grid-column: span 3;
     grid-row: span 4;
-    background-color: blue;
+    background-color: rgb(107, 16, 16,.75);
+    border: 3px solid #333a;
 }
 
+.titulo-msj{
+    padding: 5px 5px;
+}
 
+.msj{
+    padding: 15px 10px;
+}
+
+.h3{
+    padding: 5px 5px;
+}
+
+.dibujos{
+    display: flex;
+    flex-direction: row;
+}
+
+.dibujo{
+    width: 220px;
+    height: 170px;
+    padding: 10px;
+}
+
+.dibujitos{
+    display: block;
+    margin-top: 5px;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    border-radius: 7px;
+    border: 3px solid #333a;
+}
 
 /* aside */
 
 .aside{
     grid-column: span 2;
     grid-row: span 4;
-    background-color: aqua;
+    background-color: rgb(107, 16, 16,.75);
+    border: 3px solid #333a;
+}
+
+.h2{
+    margin: 5px 5px;
 }
 
 .tuyodiv{
@@ -60,7 +97,35 @@ body{
 }
 
 .tuyo{
+    display: block;
+    margin-top: 5px;
     width: 100%;
     height: 100%;
     background-size: cover;
+}
+
+/* medias */
+
+@media screen and (max-width: 768px) {
+    body{
+        font-size: 25px;
+    }
+
+    .main{
+        grid-column: 1/-1;
+    }
+
+    .dibujos{
+        padding-bottom: 7px;
+    }
+
+
+    .aside{
+        grid-column: 1/-1;
+    }
+
+    .tuyodiv{
+        width: 85vw;
+        height: 70vh;
+    }
 }
