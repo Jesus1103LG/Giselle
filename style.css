@@ -57,5 +57,7 @@ img{
 
     background-color: #555;
     border-radius: 5px;
-    border-color: #fff;
+    border: 2px solid #fff;
+    text-decoration: none;
+    color: #fff;
 }
