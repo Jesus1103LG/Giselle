@@ -128,4 +128,16 @@ body{
         width: 85vw;
         height: 70vh;
     }
+
+    .dibujos{
+        flex-direction: column;
+        
+    }
+
+    .dibujo{
+        width: 90%;
+        height: 90%;
+        margin-left: 10px;
+    }
+
 }
