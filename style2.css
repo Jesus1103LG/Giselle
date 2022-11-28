@@ -121,8 +121,22 @@ body{
 /* medias */
 
 @media screen and (max-width: 768px) {
+
+
     body{
         font-size: 25px;
+    }
+
+    /* header y footer */
+
+    .feliz-cumple{
+        display: inline-block;
+        font-size: 3vh;
+    }
+    
+    .footer h2{
+        display: inline-block;
+        font-size: 3.5vh;
     }
 
     /* main */
@@ -131,9 +145,18 @@ body{
         grid-column: 1/-1;
     }
 
-    .titulo-msj{
-        font-size: 40px;
+    .h3{
+        font-size: 3.5vh;
     }
+
+    .titulo-msj{
+        font-size: 3.5vh;
+    }
+
+    .msj{
+        font-size: 3vh;
+    }
+
 
     .dibujos{
         display: flex;
@@ -150,6 +173,7 @@ body{
 
 
     /* aside */
+
     .aside{
         grid-column: 1/-1;
     }
@@ -159,7 +183,9 @@ body{
         height: 70vh;
     }
 
-
+    .h2{
+        font-size: 3.5vh;
+    }
     
 
 }
