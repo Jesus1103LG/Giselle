@@ -35,9 +35,14 @@ body{
     border: 3px solid #ccca;
 }
 
+.feliz-cumple{
+    display: inline-block;
+    font-size: 3.5vh;
+}
+
 .footer h2{
     display: inline-block;
-    font-size: 3vh;
+    font-size: 3.5vh;
 }
 
 
@@ -118,10 +123,6 @@ body{
 @media screen and (max-width: 768px) {
     body{
         font-size: 25px;
-    }
-
-    .feliz-cumple{
-        font-size: 40px;
     }
 
     /* main */
