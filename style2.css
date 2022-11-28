@@ -35,8 +35,9 @@ body{
     border: 3px solid #ccca;
 }
 
-.footer h1{
+.footer h2{
     display: inline-block;
+    font-size: 15px;
 }
 
 
