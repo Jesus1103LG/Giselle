@@ -33,16 +33,17 @@ body{
     background-color: rgb(107, 16, 16,.75);
     padding: 7px;
     border: 3px solid #ccca;
+    
 }
 
 .feliz-cumple{
     display: inline-block;
-    font-size: 3.5vh;
+    font-size: 4vh;
 }
 
 .footer h2{
     display: inline-block;
-    font-size: 3.5vh;
+    font-size: 4vh;
 }
 
 
@@ -58,19 +59,23 @@ body{
 
 .titulo-msj{
     padding: 5px 5px;
+    font-size: 4vh;
 }
 
 .msj{
     padding: 15px 10px;
+    font-size: 2.7vh;
 }
 
 .h3{
     padding: 5px 5px;
+    font-size: 3.5vh;
 }
 
 .dibujos{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    margin-bottom: 9px;
     justify-items: center;
     align-items: center;
 }
@@ -101,13 +106,17 @@ body{
 }
 
 .h2{
+    grid-column: span 2;
     margin: 5px 5px;
+    text-align: center;
 }
 
 .tuyodiv{
-    width: 280px;
-    height: 300px;
+    width: 285px;
+    height: 330px;
     padding: 10px;
+    margin: 0;
+    align-content: center;
 }
 
 .tuyo{
@@ -154,7 +163,7 @@ body{
     }
 
     .msj{
-        font-size: 3vh;
+        font-size: 2.5vh;
     }
 
 
@@ -162,6 +171,7 @@ body{
         display: flex;
         flex-direction: column;
         padding-bottom: 7px;
+        margin: auto 10px;
     }
 
     .dibujo{
@@ -181,6 +191,11 @@ body{
     .tuyodiv{
         width: 85vw;
         height: 70vh;
+    }
+
+    .tuyo{
+        width: 97%;
+        height: 97%;
     }
 
     .h2{
